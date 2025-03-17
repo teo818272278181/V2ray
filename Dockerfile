@@ -1,4 +1,4 @@
-FROM v2fly/v2ray:latest
+FROM v2fly/v2ray-core:latest
 
 COPY config.json /etc/v2ray/config.json
 
